@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dropdown_gender_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ellipsize="start"
+    android:padding="15dp"
+    android:singleLine="true"
+    android:textColor="#ffffff" />

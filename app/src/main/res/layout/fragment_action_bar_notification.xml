@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="@android:color/darker_gray"
+android:layout_marginTop="?attr/actionBarSize"
+tools:context=".ActionBarNotificationFragment">
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        android:background="@color/greenish"
+        android:layout_width="match_parent"
+        android:id="@+id/tabLayoutNotification"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/white"
+        android:layout_height="50dp">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:layout_below="@id/tabLayoutPtc"
+        android:id="@+id/viewPagerNotification"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

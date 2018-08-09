@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/circle_img_trans"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:src="@drawable/circle_green"/>
+
+
+        <ImageView
+            android:tint="@color/gray_darkish"
+            android:src="@drawable/arrow_right"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:id="@+id/arrowTransBtn"
+            android:layout_marginRight="7dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:layout_toEndOf="@id/circle_img_trans"
+            android:id="@+id/itemTransHeadingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heading here..."
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="18dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/blueish" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorum Ipsum is simply dummy..."
+            android:id="@+id/itemDetailTransBtn"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/itemTransHeadingBtn"
+            android:layout_alignLeft="@+id/itemTransHeadingBtn"
+            android:layout_alignStart="@+id/itemTransHeadingBtn" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/itemDetailTransBtn"
+            android:layout_marginTop="12dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

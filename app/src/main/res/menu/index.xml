@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_chat_top"
+        android:orderInCategory="100"
+        android:title="Chat"
+        android:icon="@drawable/chat"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_notification_top"
+        android:orderInCategory="200"
+        android:title="Notification"
+        android:icon="@drawable/notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_user_top"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/userbtn"
+        app:showAsAction="always" />
+
+
+</menu>

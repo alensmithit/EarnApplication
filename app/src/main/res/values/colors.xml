@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+    <color name="RedColor">#b90707</color>
+    <color name="blueish">#00408f</color>
+    <color name="greenish">#6bc334</color>
+    <color name="gray_white">#DCDFE2</color>
+    <color name="transpancy_login_fields">#33ffffff</color>
+    <color name="reddish">#e70101</color>
+    <color name="grayish">#cccccc</color>
+    <color name="gray_darkish">#AAAAAA</color>
+</resources>

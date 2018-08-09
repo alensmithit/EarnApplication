@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/navMenuGroup"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard"
+            android:checked="true"
+            app:actionLayout="@layout/menu_arrows"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"
+            app:actionLayout="@layout/menu_arrows"/>
+        <item
+            android:id="@+id/nav_payment_details"
+            android:icon="@drawable/payments_details"
+            android:title="Pins"
+            app:actionLayout="@layout/menu_arrows"/>
+        <item
+            android:id="@+id/nav_purchasing"
+            android:icon="@drawable/purchasing"
+            android:title="Purchasing"
+            app:actionLayout="@layout/menu_arrows"/>
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/transaction"
+            android:title="Transactions"
+            app:actionLayout="@layout/menu_arrows"/>
+
+
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/summary"
+            android:title="Summary"
+            app:actionLayout="@layout/menu_arrows"/>
+
+        <item
+            android:id="@+id/nav_advertisements"
+            android:icon="@drawable/advertisements"
+            android:title="Advertisements"
+            app:actionLayout="@layout/menu_arrows"/>
+
+        <item
+            android:id="@+id/nav_network"
+            android:icon="@drawable/network"
+            android:title="Network"
+            app:actionLayout="@layout/menu_arrows"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            app:actionLayout="@layout/menu_arrows"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/navTransMenu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_trans_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:id="@+id/nav_trans_explore"
+            android:icon="@drawable/transaction"
+            android:title="Transactions"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_main_balance"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Main Balance">
+        </item>
+        <item
+            android:id="@+id/nav_share_balance"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Share Balance"/>
+        <item
+            android:id="@+id/nav_group_balance"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Group Balance"/>
+        <item
+            android:id="@+id/nav_saving_balance"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Saving Balance"/>
+        <item
+            android:id="@+id/nav_investment_balance"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Investment Balance"/>
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/navPinsMenu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_pins_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:icon="@drawable/payments_details"
+            android:title="Pins"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_create_pin"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create Pin">
+        </item>
+        <item
+            android:id="@+id/nav_create_withdraw_pin"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create Withdraw Pin"/>
+        <item
+            android:id="@+id/navcreate_perfect_money_pin"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create Perfect Money Pin"/>
+        <item
+            android:id="@+id/nav_create_solid_trust_pin"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create Solid Trust Pin"/>
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/navPurchasingMenu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_purchasing_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:icon="@drawable/purchasing"
+            android:title="Purchasing"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_upgrade_memberships"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Upgrade Memberships">
+        </item>
+        <item
+            android:id="@+id/nav_ad_power"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Ad Power"/>
+        <item
+            android:id="@+id/nav_power_pack"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Power Pack"/>
+        <item
+            android:id="@+id/nav_stock_pack"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Stock Pack"/>
+        <item
+            android:id="@+id/nav_earn_points"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Earn Points"/>
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav_advertisments_Menu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_advertisments_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:icon="@drawable/advertisements"
+            android:title="Advertisements"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_create_ptc_ads"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create PTC Ads">
+        </item>
+        <item
+            android:id="@+id/nav_create_banner_ads"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Create Banner Ads"/>
+        <item
+            android:id="@+id/nav_view_ptc_ads"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="View Ptc Ads"/>
+
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav_networks_Menu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_networks_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:icon="@drawable/network"
+            android:title="Network"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_direct_referrals"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Direct Referrals">
+        </item>
+        <item
+            android:id="@+id/nav_tree"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Tree"/>
+        <item
+            android:id="@+id/nav_referral_link"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Referral Link"/>
+
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/nav_settings_Menu"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_settings_back_btn"
+            android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:title="Back"/>
+
+        <item
+            android:icon="@drawable/settings"
+            android:title="Settings"
+            app:actionLayout="@layout/menu_down"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Security">
+        </item>
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Change Password"/>
+        <item
+            android:id="@+id/nav_change_pin"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Change Pin"/>
+        <item
+            android:id="@+id/nav_change_questions"
+            android:icon="@drawable/ic_arrow_forward_black_3dp"
+            android:title="Change Questions"/>
+
+
+    </group>
+
+
+</menu>
