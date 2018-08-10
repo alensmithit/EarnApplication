@@ -16,4 +16,6 @@
     <color name="reddish">#e70101</color>
     <color name="grayish">#cccccc</color>
     <color name="gray_darkish">#AAAAAA</color>
+    <color name="blueNew">#2461E3</color>
+    <color name="yelloNew">#F3AD3D</color>
 </resources>

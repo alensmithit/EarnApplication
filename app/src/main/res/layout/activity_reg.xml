@@ -60,6 +60,7 @@
                     android:inputType="" />
 
                 <Button
+                    android:id="@+id/spoRepProceedBtn"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:background="@drawable/login_btn_rounded_radious"
